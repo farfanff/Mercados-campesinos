@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercados Campesinos</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #39A900;
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 48px;
+            flex-grow: 1;
+            text-align: left;
+        }
+
+        .social-icons {
+            display: flex;
+            gap: 20px;
+            padding-right: 20px;
+        }
+
+        .social-icons a {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+        }
+
+        .social-icons a img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .hero-section {
+            background-color: white;
+            padding: 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .hero-text {
+            max-width: 45%;
+            padding-right: 20px;
+        }
+
+        .hero-text h2 {
+            color: #39A900;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .hero-text p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .hero-image {
+            max-width: 50%;
+        }
+
+        .hero-image img {
+            width: 100%;
+            height: auto;
+        }
+
+        .content-section {
+            padding: 40px 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .content-card {
+            background-color: white;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            width: 300px;
+            margin: 20px;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .content-card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .content-card h3 {
+            font-size: 24px;
+            color: #39A900;
+            margin: 15px 0;
+        }
+
+        .content-card p {
+            font-size: 16px;
+            padding: 0 15px 15px 15px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 14px;
+        }
+
+        @media (max-width: 768px) {
+            .hero-section {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .hero-text, .hero-image {
+                max-width: 100%;
+                padding: 0;
+            }
+
+            .hero-text {
+                padding-bottom: 20px;
+            }
+
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .social-icons {
+                margin-top: 10px;
+                padding-right: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Mercados Campesinos</h1>
+        <div class="social-icons">
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/1384/1384063.png" alt="Instagram">
+            </a>
+            <a href="https://www.tiktok.com" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/3046/3046120.png" alt="TikTok">
+            </a>
+            <a href="https://www.youtube.com" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube">
+            </a>
+        </div>
+    </header>
+
+    <section class="hero-section">
+        <div class="hero-text">
+            <h2>Bienvenidos a Mercados Campesinos</h2>
+            <p>
+                Descubre una variedad de productos frescos y locales, directamente del campo a tu mesa. 
+                Nos enorgullece ofrecer productos de alta calidad que apoyan a nuestros agricultores y 
+                promueven el consumo consciente.
+            </p>
+        </div>
+        <div class="hero-image">
+            <img src="https://via.placeholder.com/800x400" alt="Imagen Principal">
+            <h2>Productos frescos cada día</h2>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <div class="content-card">
+            <img src="https://via.placeholder.com/300x200" alt="Producto 1">
+            <h3>Producto 1</h3>
+            <p>Descripción breve del producto 1. Fresco y de la mejor calidad.</p>
+        </div>
+        <div class="content-card">
+            <img src="https://via.placeholder.com/300x200" alt="Producto 2">
+            <h3>Producto 2</h3>
+            <p>Descripción breve del producto 2. Directo del campo a tu mesa.</p>
+        </div>
+        <div class="content-card">
+            <img src="https://via.placeholder.com/300x200" alt="Producto 3">
+            <h3>Producto 3</h3>
+            <p>Descripción breve del producto 3. Natural y saludable.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mercados Campesinos. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
